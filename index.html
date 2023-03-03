@@ -43,7 +43,7 @@
 			<section class="box-order section">
 				<div class="container">
 					<h1 class="slogan">Effective Solutions for Your Business</h1>
-					<button type="button" class="button-main">Order Service</button>
+					<button type="button" class="button-main" data-modal-open>Order Service</button>
 				</div>
 			</section>
 			<section class="aside section">
@@ -360,6 +360,15 @@
 				</div>
 			</div>
 		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="backdrop-modal">
+				<button type="button" class="backdrop-btn" data-modal-close>
+					<svg class="modal-close">
+						<use href="./images/symbol.svg#icon-close"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
 		<script src="./modal.js"></script>
 	</body>
 </html>
